@@ -1,0 +1,173 @@
+{
+  "currentVersion": 10.11,
+  "serviceDescription": "",
+  "mapName": "Layers",
+  "description": "",
+  "copyrightText": "",
+  "supportsDynamicLayers": false,
+  "layers": [
+    {
+      "id": 0,
+      "name": "Orto_2023",
+      "parentLayerId": -1,
+      "defaultVisibility": true,
+      "subLayerIds": [1, 2, 3],
+      "minScale": 0,
+      "maxScale": 0
+    },
+    {
+      "id": 1,
+      "name": "Boundary",
+      "parentLayerId": 0,
+      "defaultVisibility": false,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0
+    },
+    {
+      "id": 2,
+      "name": "Footprint",
+      "parentLayerId": 0,
+      "defaultVisibility": false,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0
+    },
+    {
+      "id": 3,
+      "name": "Image",
+      "parentLayerId": 0,
+      "defaultVisibility": true,
+      "subLayerIds": null,
+      "minScale": 0,
+      "maxScale": 0
+    }
+  ],
+  "tables": [],
+  "spatialReference": {
+    "wkid": 2180,
+    "latestWkid": 2180
+  },
+  "singleFusedMapCache": true,
+  "tileInfo": {
+    "rows": 512,
+    "cols": 512,
+    "dpi": 96,
+    "format": "Mixed",
+    "compressionQuality": 75,
+    "origin": {
+      "x": 52023,
+      "y": 859651
+    },
+    "spatialReference": {
+      "wkid": 2180,
+      "latestWkid": 2180
+    },
+    "lods": [
+      {
+        "level": 0,
+        "resolution": 793.7515875031751,
+        "scale": 3000000
+      },
+      {
+        "level": 1,
+        "resolution": 396.87579375158754,
+        "scale": 1500000
+      },
+      {
+        "level": 2,
+        "resolution": 264.5838625010584,
+        "scale": 1000000
+      },
+      {
+        "level": 3,
+        "resolution": 132.2919312505292,
+        "scale": 500000
+      },
+      {
+        "level": 4,
+        "resolution": 52.91677250021167,
+        "scale": 200000
+      },
+      {
+        "level": 5,
+        "resolution": 26.458386250105836,
+        "scale": 100000
+      },
+      {
+        "level": 6,
+        "resolution": 13.229193125052918,
+        "scale": 50000
+      },
+      {
+        "level": 7,
+        "resolution": 6.614596562526459,
+        "scale": 25000
+      },
+      {
+        "level": 8,
+        "resolution": 2.6458386250105836,
+        "scale": 10000
+      },
+      {
+        "level": 9,
+        "resolution": 1.3229193125052918,
+        "scale": 5000
+      },
+      {
+        "level": 10,
+        "resolution": 0.5291677250021167,
+        "scale": 2000
+      },
+      {
+        "level": 11,
+        "resolution": 0.26458386250105836,
+        "scale": 1000
+      },
+      {
+        "level": 12,
+        "resolution": 0.13229193125052918,
+        "scale": 500
+      }
+    ]
+  },
+  "initialExtent": {
+    "xmin": 459562.86306197615,
+    "ymin": 169104.29667574947,
+    "xmax": 740286.341175599,
+    "ymax": 302189.97951378184,
+    "spatialReference": {
+      "wkid": 2180,
+      "latestWkid": 2180
+    }
+  },
+  "fullExtent": {
+    "xmin": 504481.5,
+    "ymin": 144860.75,
+    "xmax": 676582.25,
+    "ymax": 295433.5,
+    "spatialReference": {
+      "wkid": 2180,
+      "latestWkid": 2180
+    }
+  },
+  "minScale": 3000000,
+  "maxScale": 500,
+  "units": "esriMeters",
+  "supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ,BMP",
+  "documentInfo": {
+    "Title": "",
+    "Author": "",
+    "Comments": "",
+    "Subject": "",
+    "Category": "",
+    "AntialiasingMode": "None",
+    "TextAntialiasingMode": "Force",
+    "Keywords": ""
+  },
+  "capabilities": "Map,Query,Data",
+  "supportedQueryFormats": "JSON, AMF",
+  "maxRecordCount": 1000,
+  "maxImageHeight": 2048,
+  "maxImageWidth": 2048
+}

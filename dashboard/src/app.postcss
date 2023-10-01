@@ -1,0 +1,71 @@
+/* Write your global styles here, in PostCSS syntax */
+
+@tailwind base;
+
+FBA button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+html,
+body {
+  @apply h-full overflow-hidden;
+}
+
+a:focus {
+  color: unset !important;
+}
+
+.esri-view-surface::after,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  outline: none !important;
+}
+
+:root [data-theme='wintry'] {
+  --color-primary-50: 222 246 231;
+  --color-primary-100: 211 243 223;
+  --color-primary-200: 200 241 215;
+  --color-primary-300: 167 232 191;
+  --color-primary-400: 100 214 142;
+  --color-primary-500: 34 197 94;
+  --color-primary-600: 31 177 85;
+  --color-primary-700: 26 148 71;
+  --color-primary-800: 20 118 56;
+  --color-primary-900: 17 97 46;
+}
