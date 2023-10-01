@@ -8,5 +8,5 @@ Gwizd panel to serwis internetowy, w którym służby mogą w łatwy sposób zob
 
 ### Filmy na youtube
 
-[Film 1](https://www.youtube.com/watch?v=Y4x2YAOCO_Y)
-[Film 2](https://www.youtube.com/watch?v=HIcSWuKMwOw)
+[Film 1](https://www.youtube.com/watch?v=ZFo-4FK84nI){:target="_blank"}
+[Film 2](https://www.youtube.com/watch?v=HIcSWuKMwOw){:target="_blank"}
